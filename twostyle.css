@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 350px;
+    height: 720px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+.backgroundcolor{
+    height: 700px;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(rgba(18, 247, 121, 0.637),rgb(30, 27, 41) 80% ,rgba(0,0,0,1) );
+}
+.palyinglistheading{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+.belowlistheading{
+    display: flex;
+    margin-top: -10px;
+    color: white;
+    justify-content: center;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 370px;
+}
+.firstiamge{
+    margin-top:100px;
+    width:80%;
+    display:inline;
+    object-fit: contain;
+}
+.song{
+    justify-content: center;
+    margin-top: 50px;
+}
+.songnamediv{
+    margin-left: 40px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 100px;
+}
+.songname{
+    color: white;
+    display: flex;
+    font-size: small;
+    margin-left: 25px;
+}
+.songaudio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
